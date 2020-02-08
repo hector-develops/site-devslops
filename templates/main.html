@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/self.css') }}">
+<meta charset="utf-8">
+<title>DEVSLOPS</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+</head>
+
+
+<body>
+
+<a id="whatsapp" href="https://api.whatsapp.com/send?phone=4776468130"><img src="{{ url_for('static', filename='pictures/whatsapp.png') }}" alt=""></a>
+<header>
+  <div class="menu">
+    <div class="contenedor">
+      <p class="logo">Devslops</p>
+      <img class="menu-icon" src="{{ url_for('static', filename='pictures/menu.png') }}" alt="">
+      <nav>
+        <ul class="lista-menu">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#servicios">Aplicaciones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="">Registro</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+<div class="contenedor" id="contenedor-titulo-flex">
+    <h1 class="titulo-tools">
+        <span class="typed"></span>
+    </h1>
+  <div class="contenedor-tools" id="cadenas-texto">
+    <p>Lenguajes, BD, y S.O :<i class="tools"> Python</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> PHP</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> C-Sharp</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> Java EE</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> JavaScript</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> PostgreSql</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> MySQL</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> SQL-Server</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> MongoDB</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> RedHat 8</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> CentOs 8</i></p>
+    <p>Lenguajes, BD, y S.O :<i class="tools"> Windows Server 2019</i></p>
+  </div>
+</div>
+
+</header>
+<main>
+  <section id="nosotros">
+    <div class="contenedor">
+      <h3>Nosotros</h3>
+      <div class="contenedor-nosotros">
+        <div class="computadoras">
+          <img src="">
+        </div>
+        <div class="texto">
+          <p>DEVSLOPS es un negocio con poco tiempo en el mercado pero con personal altamente capacitado, especializado y dedicado al mejoramiento continuo de automatizacion de tareas y procesoso cotidianos, haciendo uso de la tecnologia que surge diariamente.</p>
+          <p>MISION: </p>
+          <p>VISION: </p>
+        </div>
+      </div>
+    </div>
+</section>
+<div class="contenedor">
+  <h4>Como llegar</h4>
+  <div class="mapa-llegar"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.9660656307415!2d-101.6014530153274!3d21.11391902886481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbdcef8a994e5%3A0x9323e73140886653!2sLucero%20de%20La%20Ma%C3%B1ana%201503%2C%20Mezquital%20del%20Carmen%2C%2037299%20Le%C3%B3n%2C%20Gto.!5e0!3m2!1ses-419!2smx!4v1581020256879!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+</div>
+
+<section id="servicios">
+  <div class="contenedor">
+    <h3>Servicios</h3>
+    <div class="contenedor-servicios">
+      <div class="servicio violeta">
+        <h4>Analisis de Datos</h4>
+        <p>Mineria de datos en gran volumen, desde distintas fuentes mediante metodologias agiles, ya sea para un uso estadistico, informativo o graficar dicha informacion.</p>
+        <img class="icono" src="{{ url_for('static', filename='pictures/icon-target6.png') }}">
+      </div>
+      <div class="servicio celeste">
+        <h4>Sistemas, Apps</h4>
+        <p>Desarrollo de aplicaciones mutiplataforma desde su levantamiento de informacion, diseño, eleccion y sugerencia de tecnologia y lenguaje hasta el deploy y mantenimiento del mismo.</p>
+        <img class="icono" src="{{ url_for('static', filename='pictures/icon-target3.png') }}">
+        
+      </div>
+      <div class="servicio violeta">
+        <h4>Cultura DevOps</h4>
+        <p></p>
+        <img class="icono" src="{{ url_for('static', filename='pictures/icon-target1.png') }}">
+      </div>
+      <div class="servicio celeste">
+        <h4>Servicios de Soporte Tecnico</h4>
+        <p>Servicio de soporte tecnico y consultoria a distintos usuarios ya sea mediante asesoria remota, en sitio, o por contrato</p>
+        <img class="icono" src="{{ url_for('static', filename='pictures/icon-target4.png') }}">
+      </div>
+      <div class="servicio violeta">
+        <h4>Outsourcing</h4>
+        <p>Transferencia de recursos y responsabilidades asegurando el correcto funcionamiento y mejora continua del recurso solicitado.</p>
+        <img class="icono" src="{{ url_for('static', filename='pictures/icon-target5.png') }}">
+      </div>
+      <div class="servicio celeste">
+        <h4>Servidores, Redes, y Storage</h4>
+        <p>Instalacion y configuracion de servidores en sitio, cloud, o virtualizados. Manejamos versiones Windows Server desde 2008 hasta 2019 y Linux RedHat, CentOs, y Ubuntu. Cableado estructurado bajo normas de seguridad.</p>
+        <img class="icono" src="{{ url_for('static', filename='pictures/icon-target2.png') }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto-con">
+  <div class="contenedor">
+    <h3>¿Qué esperas para contactarnos?</h3>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="contenedor">
+    <h3>Contacto</h3>
+    <form role="form" method="post" enctype="multipart/form-data">
+      <input type="text" placeholder="Nombre" name="nombre" required>
+      <input type="email" placeholder="Email" name="email" required>
+      <textarea placeholder="Mensaje" name="mensaje" required></textarea>
+      <input type="submit" value="Contactar">
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container-footer-all">
+    <div class="container-body">
+       <div class="colum1">
+           <h1 style="color: black">Mas informacion de la compañia</h1>
+           <p>Empresa dedicada a soluciuones 100% garantizadas en su sector, asi mismo trabajar en la mejora continua para seguirse consolidando como uno de las mejores.</p>
+       </div>
+
+       <div class="colum2">
+           <h1 style="color: black"> Redes Sociales</h1>
+           <div class="row">
+               <a id="facebook" href="https://www.facebook.com/Devslops-116025643281614/?modal=admin_todo_tour"><img src="{{ url_for('static', filename='pictures/facebook.png') }}"></a>
+               <label>Siguenos en Facebook</label>
+           </div>
+           <div class="row">
+               <a id="github" href="https://github.com/hector-develops"><img src="{{ url_for('static', filename='pictures/github.png') }}"></a>
+               <label>GitHub</label>
+           </div>
+           <div class="row">
+               <a id="instagram" href="https://www.instagram.com/?hl=es-la"><img src="{{ url_for('static', filename='pictures/insta.jpg') }}"></a>
+               <label>Siguenos en Instagram</label>
+           </div>
+       </div>
+
+       <div class="colum3">
+           <h1 style="color: black" >Informacion Contactos</h1>
+               <div class="row2">
+                   <img src="{{ url_for('static', filename='pictures/contact.png') }}">
+                   <label>Devslops</label>
+               </div>
+               <div class="row2">
+                   <img src="{{ url_for('static', filename='pictures/smartphone.png') }}">
+                   <label>477-312-68-97</label>
+               </div>
+               <div class="row2">
+                   
+               </div>
+       </div>
+     </div>
+   </div>
+   <br>
+   <div class="container-footer">
+          <div class="footer">
+               <div class="copyright">
+                   © 2020 Todos los Derechos Reservados | <a href="">DEVSLOPS</a>
+               </div>
+
+               <div class="information">
+                   <a href="#nosotros">Nosotros</a> | <a href="#servicios">Servicios</a> | <a href="">Politica y Privacidad</a>
+               </div>
+           </div>
+
+       </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="{{ url_for('static', filename='js/self.js') }}"></script>
+  
+  
+
+</body>
+
+</html>

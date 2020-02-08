@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header ul {
+    display: flex;
+  }
+  
+  header ul li {
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  header {
+    background: linear-gradient(rgba(84,207,220), rgba(96,231,245,0.55)), url(../pictures/fondo1.jpeg);
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  #contenedor-titulo-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: #fff;
+    margin: 0;
+    align-content: center;
+  }
+  
+  h2 {
+    font-size: 25px;
+    color: #fff;
+  }
+  .contenedor-titulo .typed {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .contenedor-titulo .tools {
+    font-weight: bold;
+    color: #c99806;
+    font-style: normal;
+  }
+  .contenedor-titulo {
+    text-align: center;
+  }
+
+  .contenedor-titulo a, #contacto input[type="submit"] {
+    font-size: 14px;
+    color: #fff;
+    background: #5cb8ff;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+  }
+  
+  p.logo {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+
+  
+  .contenedor-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  
+  .servicio {
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .servicio h4 {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .servicio p {
+    margin-bottom: 20px;
+    height: 194px;
+  }
+  
+  .contenedor-servicios .violeta {
+      background: linear-gradient(to top, #5055df, #6d68f3);
+      box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+  }
+  .contenedor-servicios .celeste {
+      background: linear-gradient(to top, #40a8f9, #5cb8ff);
+      box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+  }
+  
+  .icono {
+    width: 80px; height: 80px;
+    float: right;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .mapa-llegar {
+    position: static;
+    right: 1%;
+    
+  }
+  
+  @media (min-width: 600px) and (max-width:800px) {
+    header {
+      height: 70vh;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+
+    .servicio {
+      width: 57%;
+      padding: 34px 30px 69px 30px;
+      margin: auto;
+      margin-bottom: 45px;
+  }
+
+
+  }
+
+  #whatsapp {
+    position: fixed;
+    top: 80%;
+    right: 1%;
+  }
+  
+
+#contacto form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+}
+
+textarea {
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+#contacto input[type="submit"] {
+  width: 166px;
+  margin: auto;
+}
+
+.contacto-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.contacto-info img {
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer{
+  width: 100%;
+  color: #4bb9c4;   
+  background-color: #ffffff;
+}
+#Se2{
+  height: 100%;
+}
+.container-footer-all{  
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  position: relative;
+  
+}
+
+.container-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1{
+  max-width: 400px;
+}
+
+.colum1 h1{
+  font-size: 22px;
+}
+
+.colum1 p{
+  font-size: 14px;
+  color: black;
+  margin-top: 20px;
+}
+
+.colum2{
+  max-width: 400px;
+  
+}
+
+.colum2 h1{
+  font-size: 22px;
+}
+
+.row{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row img{
+  width: 36px;
+  height: 36px;
+}
+
+.row label{
+  margin-top: 10px;
+  margin-left: 20px;
+  color: black;
+}
+
+.colum3{
+  max-width: 400px;
+}
+
+.colum3 h1{
+  font-size: 22px;
+}
+
+.row2{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 img{
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label{
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer{
+  position: relative;
+  width: 100%;  
+  background:black;
+}
+
+.footer{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;  
+  padding: 20px;
+}
+
+.copyright{
+  color: white;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white    ;
+  font-weight: bold;
+}
+
+.information a{
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 800px) {
+
+  .menu-icon {
+  display: block;
+  float: right;
+  width: 40px;
+  height: 35px;
+  margin-top: 15px;
+  }
+  
+  header nav {
+    position: absolute;
+    top: 83px;
+    left: 0;
+    height: 268px;
+    background: #5cb8ff;
+    width: 100%;
+    display: none;
+  }
+  
+  header nav ul {
+    flex-direction: column;
+  }
+  
+  header nav ul li {
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 44px;
+  }
+  
+  h2 {
+    font-size: 19px;
+  }
+  
+  .contenedor-servicios {
+      flex-direction: column;
+  }
+  
+  .servicio {
+    width: 82%;
+    padding: 34px 30px 69px 30px;
+  }
+  
+  .icono {
+      margin-top: 23px;
+  }
+  
+  h3 {
+    font-size: 43px;
+  }
+
+  .item ul {
+      padding: 0;
+  }
+  #contacto form {
+      width: 100%;
+      flex-direction: column;
+  }
+  
+  input[type="text"], input[type="email"] {
+      width: 100%;
+  }
+  
+  footer img {
+      margin: 0 24px;
+  }
+  .container-body{
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 100%;
+}
+
+.colum2,
+.colum3{
+    margin-top: 40px;
+}
+
+  }
